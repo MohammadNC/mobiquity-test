@@ -1,0 +1,55 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mobiquity",
+		"_postman_id": "73e11f54-c7c8-407c-5487-c67a8a650007",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All ATMS",
+			"request": {
+				"url": "http://localhost:8080/api/locator/atms",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get ATMs by City",
+			"request": {
+				"url": "http://localhost:8080/api/locator/atms/Nijmegen",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get ATMs by City",
+			"request": {
+				"url": "http://localhost:8080/api/locator/atms/Heemstede",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get -ve for City",
+			"request": {
+				"url": "http://localhost:8080/api/locator/atms/Heemstede1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,302 @@
+{
+	"id": "fa10d147-0365-b0ec-05f8-522e745e2c38",
+	"name": "mobiquity",
+	"allTests": [],
+	"timestamp": 1621427930301,
+	"collection_id": "73e11f54-c7c8-407c-5487-c67a8a650007",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "73e11f54-c7c8-407c-5487-c67a8a650007",
+		"name": "mobiquity",
+		"description": "",
+		"order": [
+			"c829993b-cd9d-d304-b4dc-bfa757592947",
+			"fdb7fb15-41b1-a181-4c13-a1d48eb89ff4",
+			"1dfb4aea-d690-4bfb-7895-4301058ef8e2",
+			"f0e18eba-40d7-e0d1-5e9c-132630915769"
+		],
+		"folders": [],
+		"folders_order": [],
+		"requests": [
+			{
+				"id": "1dfb4aea-d690-4bfb-7895-4301058ef8e2",
+				"headers": "",
+				"headerData": [],
+				"url": "http://localhost:8080/api/locator/atms/Heemstede",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"version": 2,
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1621427863555,
+				"name": "Get ATMs by City",
+				"description": "",
+				"collectionId": "73e11f54-c7c8-407c-5487-c67a8a650007",
+				"responses": []
+			},
+			{
+				"id": "c829993b-cd9d-d304-b4dc-bfa757592947",
+				"headers": "",
+				"headerData": [],
+				"url": "http://localhost:8080/api/locator/atms",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"version": 2,
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1621427858595,
+				"name": "Get All ATMS",
+				"description": "",
+				"collectionId": "73e11f54-c7c8-407c-5487-c67a8a650007",
+				"responses": []
+			},
+			{
+				"id": "f0e18eba-40d7-e0d1-5e9c-132630915769",
+				"headers": "",
+				"headerData": [],
+				"url": "http://localhost:8080/api/locator/atms/Heemstede1",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"version": 2,
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1621427866290,
+				"name": "Get -ve for City",
+				"description": "",
+				"collectionId": "73e11f54-c7c8-407c-5487-c67a8a650007",
+				"responses": []
+			},
+			{
+				"id": "fdb7fb15-41b1-a181-4c13-a1d48eb89ff4",
+				"headers": "",
+				"headerData": [],
+				"url": "http://localhost:8080/api/locator/atms/Nijmegen",
+				"queryParams": [],
+				"preRequestScript": null,
+				"pathVariables": {},
+				"pathVariableData": [],
+				"method": "GET",
+				"data": null,
+				"dataMode": "params",
+				"version": 2,
+				"tests": null,
+				"currentHelper": "normal",
+				"helperAttributes": {},
+				"time": 1621427861138,
+				"name": "Get ATMs by City",
+				"description": "",
+				"collectionId": "73e11f54-c7c8-407c-5487-c67a8a650007",
+				"responses": []
+			}
+		],
+		"timestamp": 1621426732865,
+		"synced": false,
+		"syncedFilename": "",
+		"remote_id": 0,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"owner": 0,
+		"subscribed": false,
+		"createdAt": 1621426732865,
+		"updatedAt": 1621427851406,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {},
+		"sharedWithTeam": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"id": "c829993b-cd9d-d304-b4dc-bfa757592947",
+			"name": "Get All ATMS",
+			"url": "http://localhost:8080/api/locator/atms",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8944
+			],
+			"allTests": [
+				{}
+			],
+			"time": 8944,
+			"totalRequestTime": 8944,
+			"iterationResults": {}
+		},
+		{
+			"id": "fdb7fb15-41b1-a181-4c13-a1d48eb89ff4",
+			"name": "Get ATMs by City",
+			"url": "http://localhost:8080/api/locator/atms/Nijmegen",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8685
+			],
+			"allTests": [
+				{}
+			],
+			"time": 8685,
+			"totalRequestTime": 8685,
+			"iterationResults": {}
+		},
+		{
+			"id": "1dfb4aea-d690-4bfb-7895-4301058ef8e2",
+			"name": "Get ATMs by City",
+			"url": "http://localhost:8080/api/locator/atms/Heemstede",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9131
+			],
+			"allTests": [
+				{}
+			],
+			"time": 9131,
+			"totalRequestTime": 9131,
+			"iterationResults": {}
+		},
+		{
+			"id": "f0e18eba-40d7-e0d1-5e9c-132630915769",
+			"name": "Get -ve for City",
+			"url": "http://localhost:8080/api/locator/atms/Heemstede1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8675
+			],
+			"allTests": [
+				{}
+			],
+			"time": 8675,
+			"totalRequestTime": 8675,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 35435,
+	"lifecycle": "done",
+	"willStop": false,
+	"requests": [
+		{
+			"name": "Get All ATMS",
+			"id": "c829993b-cd9d-d304-b4dc-bfa757592947",
+			"url": "http://localhost:8080/api/locator/atms",
+			"time": 8944,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "Get ATMs by City",
+			"id": "fdb7fb15-41b1-a181-4c13-a1d48eb89ff4",
+			"url": "http://localhost:8080/api/locator/atms/Nijmegen",
+			"time": 8685,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "Get ATMs by City",
+			"id": "1dfb4aea-d690-4bfb-7895-4301058ef8e2",
+			"url": "http://localhost:8080/api/locator/atms/Heemstede",
+			"time": 9131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		},
+		{
+			"name": "Get -ve for City",
+			"id": "f0e18eba-40d7-e0d1-5e9c-132630915769",
+			"url": "http://localhost:8080/api/locator/atms/Heemstede1",
+			"time": 8675,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found",
+				"detail": "The requested resource could not be found but may be available again in the future. Subsequent requests by the client are permissible."
+			},
+			"testPassFailCounts": {},
+			"gridTitles": [],
+			"gridData": [
+				[]
+			],
+			"tests": {}
+		}
+	],
+	"synced": false
+}
